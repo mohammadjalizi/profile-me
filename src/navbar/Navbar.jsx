@@ -7,10 +7,20 @@ function Navbar() {
 <div className=' navbar'>
 
 <div>
-    <img src={images}/>
+    <img  className=' w-[80px]  border  rounded-full ' src={images}/ >
     
      </div>
+<div>
+<ul>
 
+    <li>درباره من</li>
+    <li>مهارت ها</li>
+    <li></li>
+    <li></li>
+</ul>
+
+
+</div>
 
 
 </div>
