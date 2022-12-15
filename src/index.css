@@ -9,6 +9,11 @@ body{
 direction: rtl;
 
 }
+.photo{
+
+ background: url(./img/pexels-pixabay-531880.jpg);
+height: 120vh;
+}
 
 
 }

@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './navbar/Navbar';
+import Seaction from './navbar/Seaction';
+import HEader from './navbar/HEader';
 
 function App() {
   return (
-    <div className="App">
- <Navbar/>  
-    </div>
+    <>    
+<Navbar/>
+<section/>
+<HEader/>
+</>
   );
 }
 
