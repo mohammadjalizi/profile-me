@@ -3,6 +3,7 @@ import images from '../navbar/pic.jpeg'
 
 function Navbar() {
   return (
+    <div data-aos="fade-down">
     <div className=' text-white  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 '>
 <div className=' navbar flex  justify-between container '>
 
@@ -26,6 +27,7 @@ function Navbar() {
 
 
 
+    </div>
     </div>
   )
 }

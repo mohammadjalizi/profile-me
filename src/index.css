@@ -19,7 +19,18 @@ height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:  photome  0.5s  initial;
   
 }
 
+@keyframes photome {
+
+    0%{  border-top-left-radius: 40%;  }
+    50%{  border-radius: 70%; background-color: aquamarine; }
+    100%{
+
+        border-radius: 10%;
+        width: 340px;
+    }
+}
 }
