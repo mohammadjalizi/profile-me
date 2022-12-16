@@ -8,7 +8,7 @@ function Skils() {
 <div data-aos="zoom-in"> <img className=' w-[400px] ' src={phot}/> </div>
 <div data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">
-<h3 className=' text-center py-4 bg-slate-500 '>مهارت ها</h3>
+<h3 className='  pb-4  text-3xl text-black'>مهارت ها</h3>
 <div className='  py-3 grid grid-cols-3  md:grid-cols-3 gap-5 '>
 
 <div className=' w-[130px] h-[131px] bg-orange-500 flex justify-center items-center '> <p>html5</p>   </div>

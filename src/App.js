@@ -4,6 +4,7 @@ import Navbar from './navbar/Navbar';
 import Seaction from './navbar/Seaction';
 import HEader from './navbar/HEader';
 import Skils from './skils/Skils';
+import Swiper from './swiper/Swiper1';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 <section/>
 <HEader/>
 <Skils/>
+<Swiper/>
 </>
   );
 }
