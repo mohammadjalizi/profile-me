@@ -1,14 +1,14 @@
 import React from 'react'   
-import images from '../navbar/pic.jpeg'
+
 
 function Navbar() {
   return (
-    <div data-aos="fade-down">
-    <div className=' text-white  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 '>
+    <div data-aos="fade-down" className='   z-50 fixed w-full '>
+    <div className=' text-white  bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500    '>
 <div className=' navbar flex  justify-between container '>
 
-<div>
-    <img  className=' w-[80px]  border  rounded-full ' src={images}/ >
+<div className=' flex justify-center items-center'>
+<h1 className=' text-2xl '> محمد جلیزی</h1>
     
      </div>
 <div className=' flex items-center justify-center'>

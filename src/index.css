@@ -9,9 +9,14 @@ body{
 direction: rtl;
 
 }
+.skils{
+
+
+background-color: bisque;
+}
 .photo{
 
- background: url(./img/pexels-pixabay-531880.jpg) ;
+ background: url(./img/skils.jpg);
  background-repeat: no-repeat;
 height: 120vh;
 }
@@ -23,14 +28,10 @@ height: 120vh;
   
 }
 
-@keyframes photome {
-
-    0%{  border-top-left-radius: 40%;  }
-    50%{  border-radius: 70%; background-color: aquamarine; }
-    100%{
-
-        border-radius: 10%;
-        width: 340px;
-    }
+@keyframes html {
+    0%{ width: 0;}
+    100%{width: 90%;}
+    
 }
 }
+
