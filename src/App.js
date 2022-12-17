@@ -5,6 +5,8 @@ import Seaction from './navbar/Seaction';
 import HEader from './navbar/HEader';
 import Skils from './skils/Skils';
 import Swiper from './swiper/Swiper1';
+import Desin from './webdesin/Desin';
+
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
 <HEader/>
 <Skils/>
 <Swiper/>
+<Desin/>
+
+
 </>
   );
 }

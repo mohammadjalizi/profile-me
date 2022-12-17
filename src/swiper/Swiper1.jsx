@@ -29,6 +29,7 @@ function Swiper1() {
      
 
     >
+      <div data-aos="zoom-out-right">
       <SwiperSlide>
 <div className=' bg-black h-[50vh] '>
 <img src={photo}/>
@@ -107,7 +108,7 @@ css3 و
 
 
       </SwiperSlide>
-      ...
+      ...</div>
     </Swiper>
         </div>      
     </div>
