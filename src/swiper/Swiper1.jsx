@@ -8,8 +8,8 @@ import 'swiper/css/scrollbar';
 import photo from '../img/tapsi-screenshot.webp'
 function Swiper1() {
   return (
-    
-    <div  className=' md:w-[50%] md:m-auto  text-white'>
+    <div className=' bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 '>  
+    <div  className=' md:w-[70%] md:m-auto  bg-slate-400  rounded-2xl  text-white'>
      
      <div class=" flex justify-between">
 <h2 class="work__title-h2"> آخرین نمونه کارها</h2>
@@ -26,30 +26,91 @@ function Swiper1() {
       slidesPerView={3}
       navigation
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+     
 
     >
       <SwiperSlide>
-<div className=' bg-black '>
+<div className=' bg-black h-[50vh] '>
 <img src={photo}/>
-<p>hello</p>
+<h3>پروژه تپسی</h3>
+<p>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
+html5 و
+css3 و
+اندکی js استفاده
+شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
 
-<div>
-
- <h2>link</h2>
- <h1>mohammadjalizi</h1>
+<div class=" flex justify-between mt-6">
+<a href="https://github.com/mohammadjalizi/play" target="_blank"><button>سورس
+کد</button></a>
+<button class="popup-post popupPostTapsi">مشاهده آنلاین</button>
 </div>
 
 </div>
 
 
       </SwiperSlide>
-      <SwiperSlide className=' bg-black '>Slide 2</SwiperSlide>
-      <SwiperSlide className=' bg-black '>Slide 3</SwiperSlide>
-      <SwiperSlide className=' bg-black '>Slide 4</SwiperSlide>
+      <SwiperSlide>
+      <div className=' bg-black h-[50vh] '>
+<img src={photo}/>
+<h3>پروژه تپسی</h3>
+<p>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
+html5 و
+css3 و
+اندکی js استفاده
+شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
+
+<div class=" flex justify-between mt-6">
+<a href="https://github.com/mohammadjalizi/play" target="_blank"><button>سورس
+کد</button></a>
+<button class="popup-post popupPostTapsi">مشاهده آنلاین</button>
+</div>
+
+</div>
+
+      </SwiperSlide>
+      <SwiperSlide>
+      <div className=' bg-black h-[50vh] '>
+<img src={photo}/>
+<h3>پروژه تپسی</h3>
+<p>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
+html5 و
+css3 و
+اندکی js استفاده
+شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
+
+<div class=" flex justify-between mt-6">
+<a href="https://github.com/mohammadjalizi/play" target="_blank"><button>سورس
+کد</button></a>
+<button class="popup-post popupPostTapsi">مشاهده آنلاین</button>
+</div>
+
+</div>
+
+      </SwiperSlide>
+      <SwiperSlide>
+      <div className=' bg-black h-[50vh] '>
+<img src={photo}/>
+<h3>پروژه تپسی</h3>
+<p>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
+html5 و
+css3 و
+اندکی js استفاده
+شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
+
+<div class=" flex justify-between mt-6">
+<a href="https://github.com/mohammadjalizi/play" target="_blank"><button>سورس
+کد</button></a>
+<button class="popup-post popupPostTapsi">مشاهده آنلاین</button>
+</div>
+
+</div>
+
+
+      </SwiperSlide>
       ...
     </Swiper>
         </div>      
+    </div>
     </div>
   )
 }
