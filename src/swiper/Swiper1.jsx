@@ -31,19 +31,20 @@ function Swiper1() {
     >
       <div data-aos="zoom-out-right">
       <SwiperSlide>
-<div className=' bg-black h-[50vh] '>
-<img src={photo}/>
+<div className='  bg-fuchsia-500  h-auto '>
+<img className=' py-5 ' src={photo}/>
+<div className=' py-8'>   
 <h3>پروژه تپسی</h3>
-<p>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
+<p className=' py-4'>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
 html5 و
 css3 و
 اندکی js استفاده
 شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
-
+</div>
 <div class=" flex justify-between mt-6">
-<a href="https://github.com/mohammadjalizi/play" target="_blank"><button>سورس
+<a href="https://github.com/mohammadjalizi/play" target="_blank"><button className='  bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500"'>سورس
 کد</button></a>
-<button class="popup-post popupPostTapsi">مشاهده آنلاین</button>
+<button class="   bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500">مشاهده آنلاین</button>
 </div>
 
 </div>
@@ -51,61 +52,62 @@ css3 و
 
       </SwiperSlide>
       <SwiperSlide>
-      <div className=' bg-black h-[50vh] '>
-<img src={photo}/>
+      <div className='  bg-fuchsia-500  h-auto '>
+      <img className=' py-5 ' src={photo}/>
+<div className=' py-8'>   
 <h3>پروژه تپسی</h3>
-<p>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
+<p className=' py-4'>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
 html5 و
 css3 و
 اندکی js استفاده
 شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
-
+</div>
 <div class=" flex justify-between mt-6">
-<a href="https://github.com/mohammadjalizi/play" target="_blank"><button>سورس
+<a href="https://github.com/mohammadjalizi/play" target="_blank"><button className='  bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500"'>سورس
 کد</button></a>
-<button class="popup-post popupPostTapsi">مشاهده آنلاین</button>
+<button class="   bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500">مشاهده آنلاین</button>
+</div>
+
+</div>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div className='  bg-fuchsia-500  h-auto '>
+      <img className=' py-5 ' src={photo}/>
+<div className=' py-8'>   
+<h3>پروژه تپسی</h3>
+<p className=' py-4'>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
+html5 و
+css3 و
+اندکی js استفاده
+شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
+</div>
+<div class=" flex justify-between mt-6">
+<a href="https://github.com/mohammadjalizi/play" target="_blank"><button className='  bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500"'>سورس
+کد</button></a>
+<button class="   bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500">مشاهده آنلاین</button>
 </div>
 
 </div>
 
       </SwiperSlide>
-      <SwiperSlide>
-      <div className=' bg-black h-[50vh] '>
-<img src={photo}/>
+      <SwiperSlide className= '  '>
+      <div className='  bg-fuchsia-500  h-auto  rounded-3xl shadow-2xl ' >
+      <img className=' py-5 ' src={photo}/>
+<div className=' py-8'>   
 <h3>پروژه تپسی</h3>
-<p>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
+<p className=' py-4'>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
 html5 و
 css3 و
 اندکی js استفاده
 شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
-
+</div>
 <div class=" flex justify-between mt-6">
-<a href="https://github.com/mohammadjalizi/play" target="_blank"><button>سورس
+<a href="https://github.com/mohammadjalizi/play" target="_blank"><button className='  bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500"'>سورس
 کد</button></a>
-<button class="popup-post popupPostTapsi">مشاهده آنلاین</button>
+<button class="   bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500">مشاهده آنلاین</button>
 </div>
 
 </div>
-
-      </SwiperSlide>
-      <SwiperSlide>
-      <div className=' bg-black h-[50vh] '>
-<img src={photo}/>
-<h3>پروژه تپسی</h3>
-<p>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
-html5 و
-css3 و
-اندکی js استفاده
-شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
-
-<div class=" flex justify-between mt-6">
-<a href="https://github.com/mohammadjalizi/play" target="_blank"><button>سورس
-کد</button></a>
-<button class="popup-post popupPostTapsi">مشاهده آنلاین</button>
-</div>
-
-</div>
-
 
       </SwiperSlide>
       ...</div>
