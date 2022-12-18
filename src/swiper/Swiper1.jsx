@@ -5,11 +5,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import photo from '../img/tapsi-screenshot.webp'
+import photo from '../img/project1.png'
+import photo1 from '../img/project2.png'
 function Swiper1() {
   return (
-    <div className=' bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 '>  
-    <div  className=' md:w-[70%] md:m-auto  bg-slate-400  rounded-2xl  text-white'>
+    <div className=' bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  rounded-3xl   shadow-2xl '>  
+    <div  className=' md:w-[70%] md:m-auto   rounded-2xl  text-white'>
      
      <div class=" flex justify-between">
 <h2 class="work__title-h2"> آخرین نمونه کارها</h2>
@@ -25,7 +26,6 @@ function Swiper1() {
       spaceBetween={80}
       slidesPerView={3}
       navigation
-      pagination={{ clickable: true }}
      
 
     >
@@ -34,17 +34,17 @@ function Swiper1() {
 <div className='  bg-fuchsia-500  h-auto '>
 <img className=' py-5 ' src={photo}/>
 <div className=' py-8'>   
-<h3>پروژه تپسی</h3>
-<p className=' py-4'>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
+<h3>پروژه  تمرینی</h3>
+<p className=' py-4'>این پروژه کلون سایت تمرینی . می باشد. در این پروژه از فریم ورک بوت استرب   استفاده شده و از
 html5 و
-css3 و
+ bootstrap و
 اندکی js استفاده
 شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
 </div>
 <div class=" flex justify-between mt-6">
-<a href="https://github.com/mohammadjalizi/play" target="_blank"><button className='  bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500"'>سورس
+<a href="https://github.com/mohammadjalizi/siteme" target="_blank"><button className='  bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500"'>سورس
 کد</button></a>
-<button class="   bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500">مشاهده آنلاین</button>
+   <a href="home/mohammad/Desktop/New%20Folder%201/siteme-master/index-fa.html" target="_blank">   <button class="   bg-gradient-to-r from-cyan-500 to-blue-500 p-4 rounded-3xl shadow-2xl hover:from-pink-500 hover:to-yellow-500">مشاهده آنلاین</button> </a> 
 </div>
 
 </div>
@@ -53,13 +53,11 @@ css3 و
       </SwiperSlide>
       <SwiperSlide>
       <div className='  bg-fuchsia-500  h-auto '>
-      <img className=' py-5 ' src={photo}/>
+      <img className=' py-4 ' src={photo1}/>
 <div className=' py-8'>   
-<h3>پروژه تپسی</h3>
-<p className=' py-4'>این پروژه کلون سایت تپسی tapsi.ir می باشد. در این پروژه از فریم ورک استفاده نشده و از
-html5 و
-css3 و
-اندکی js استفاده
+<h3>پروژه نوبیتکس</h3>
+<p className=' py-4'>      این پروژه با استفاده از فریم ورک تایلویند  استفاده شده واز html5و اندکی js استفاده
+
 شده است و همچنین ریسپانسیو شده و مناسب برای تمام دستگاه ها</p>
 </div>
 <div class=" flex justify-between mt-6">
